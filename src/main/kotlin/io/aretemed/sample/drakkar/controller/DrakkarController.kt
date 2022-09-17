@@ -34,7 +34,7 @@ class DrakkarController(
         return sampleService.createRoom(room)
     }
 
-    @PostMapping("/rooms/update-room")
+    @PutMapping("/rooms/update-room")
     fun updateRoom(@RequestBody room : Room): Room? {
         return sampleService.updateRoom(room)
     }
