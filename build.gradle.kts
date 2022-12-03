@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.aretemed.drakkar:sdk-java:1.0.8")
+    implementation("io.aretemed.drakkar:sdk-java:1.0.10")
     implementation("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
     implementation("org.springframework.boot:spring-boot-starter-webflux:${springBootVersion}")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
