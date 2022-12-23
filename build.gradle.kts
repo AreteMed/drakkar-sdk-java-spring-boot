@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "io.aretemed.sample.drakkar"
-version = "1.0.0-SNAPSHOT"
+version = "2.1.5.RELEASE"
 
 val springBootVersion by extra("2.1.5.RELEASE")
 val kotlinxCoroutinesVersion by extra("1.4.3")
@@ -18,7 +18,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.aretemed.drakkar:sdk-java:1.0.14")
+    implementation("io.aretemed.drakkar:sdk-java:2.1.5.RELEASE")
     implementation("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
     implementation("org.springframework.boot:spring-boot-starter-webflux:${springBootVersion}")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
